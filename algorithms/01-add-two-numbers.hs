@@ -8,5 +8,5 @@ addTwoNumbers :: Int -> Int -> Int
 addTwoNumbers x y = x + y
 
 main :: IO ()
-main do 
+main = do 
  print(addTwoNumbers 8 7)
